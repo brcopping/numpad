@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name AcheronMX)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_MX.pretty)(options "")(descr ""))
+  (lib (name AcheronHardware)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Hardware.pretty)(options "")(descr ""))
+  (lib (name AcheronConnectors)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Connectors.pretty)(options "")(descr ""))
+)

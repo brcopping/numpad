@@ -1,0 +1,922 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Bens Numpad"
+Date "2019-09-07"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5D73C3AE
+P 4150 5100
+F 0 "U1" H 4000 4350 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 4050 4250 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4150 5100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4150 5100 50  0001 C CNN
+	1    4150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5D73D852
+P 4150 3200
+F 0 "#PWR011" H 4150 3050 50  0001 C CNN
+F 1 "+5V" H 4165 3373 50  0000 C CNN
+F 2 "" H 4150 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5D7405C9
+P 1250 1050
+F 0 "#PWR01" H 1250 900 50  0001 C CNN
+F 1 "+5V" H 1265 1223 50  0000 C CNN
+F 2 "" H 1250 1050 50  0001 C CNN
+F 3 "" H 1250 1050 50  0001 C CNN
+	1    1250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 5D7428E6
+P 4100 1050
+F 0 "#PWR08" H 4100 900 50  0001 C CNN
+F 1 "+5V" H 4115 1223 50  0000 C CNN
+F 2 "" H 4100 1050 50  0001 C CNN
+F 3 "" H 4100 1050 50  0001 C CNN
+	1    4100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D7436EE
+P 2750 3800
+F 0 "#PWR05" H 2750 3550 50  0001 C CNN
+F 1 "GND" V 2755 3627 50  0000 C CNN
+F 2 "" H 2750 3800 50  0001 C CNN
+F 3 "" H 2750 3800 50  0001 C CNN
+	1    2750 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D7449A2
+P 2750 4000
+F 0 "#PWR06" H 2750 3750 50  0001 C CNN
+F 1 "GND" V 2755 3827 50  0000 C CNN
+F 2 "" H 2750 4000 50  0001 C CNN
+F 3 "" H 2750 4000 50  0001 C CNN
+	1    2750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5D74670C
+P 2850 3800
+F 0 "C2" V 3079 3800 50  0000 C CNN
+F 1 "22pF" V 2988 3800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 3800 50  0001 C CNN
+F 3 "~" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5D747A20
+P 2850 4000
+F 0 "C3" V 2987 4000 50  0000 C CNN
+F 1 "22pF" V 3078 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2850 4000 50  0001 C CNN
+F 3 "~" H 2850 4000 50  0001 C CNN
+	1    2850 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5D74BD04
+P 3150 3900
+F 0 "Y1" V 3104 3988 50  0000 L CNN
+F 1 "16MHz" V 3195 3988 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 3150 3900 50  0001 C CNN
+F 3 "~" H 3150 3900 50  0001 C CNN
+	1    3150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 3800 3150 3800
+Wire Wire Line
+	3150 3800 3550 3800
+Connection ~ 3150 3800
+Wire Wire Line
+	2950 4000 3150 4000
+Wire Wire Line
+	3150 4000 3550 4000
+Connection ~ 3150 4000
+$Comp
+L Device:C_Small C4
+U 1 1 5D7548F4
+P 3350 4900
+F 0 "C4" V 3550 4900 50  0000 C CNN
+F 1 "1uF" V 3450 4900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3350 4900 50  0001 C CNN
+F 3 "~" H 3350 4900 50  0001 C CNN
+	1    3350 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5D756A6D
+P 3150 4900
+F 0 "#PWR07" H 3150 4650 50  0001 C CNN
+F 1 "GND" V 3155 4727 50  0000 C CNN
+F 2 "" H 3150 4900 50  0001 C CNN
+F 3 "" H 3150 4900 50  0001 C CNN
+	1    3150 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5D757A2A
+P 4100 7000
+F 0 "#PWR010" H 4100 6750 50  0001 C CNN
+F 1 "GND" H 4105 6827 50  0000 C CNN
+F 2 "" H 4100 7000 50  0001 C CNN
+F 3 "" H 4100 7000 50  0001 C CNN
+	1    4100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5D759123
+P 3600 1300
+F 0 "C5" V 3829 1300 50  0000 C CNN
+F 1 "10uF" V 3738 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 1300 50  0001 C CNN
+F 3 "~" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5D759CD2
+P 3950 1300
+F 0 "C6" V 4179 1300 50  0000 C CNN
+F 1 "1uF" V 4088 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 1300 50  0001 C CNN
+F 3 "~" H 3950 1300 50  0001 C CNN
+	1    3950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 5D75B0ED
+P 4650 1300
+F 0 "C8" V 4879 1300 50  0000 C CNN
+F 1 "100n" V 4788 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 1300 50  0001 C CNN
+F 3 "~" H 4650 1300 50  0001 C CNN
+	1    4650 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1200 4300 1050
+Wire Wire Line
+	4300 1050 4100 1050
+Wire Wire Line
+	4650 1200 4650 1050
+Wire Wire Line
+	4650 1050 4300 1050
+Connection ~ 4300 1050
+$Comp
+L power:GND #PWR09
+U 1 1 5D765ECA
+P 4100 1600
+F 0 "#PWR09" H 4100 1350 50  0001 C CNN
+F 1 "GND" H 4105 1427 50  0000 C CNN
+F 2 "" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1200 3600 1050
+Wire Wire Line
+	3600 1050 3950 1050
+Connection ~ 4100 1050
+Wire Wire Line
+	3950 1200 3950 1050
+Wire Wire Line
+	3950 1050 4100 1050
+Connection ~ 3950 1050
+Wire Wire Line
+	3600 1400 3600 1600
+Wire Wire Line
+	3950 1400 3950 1600
+Wire Wire Line
+	3600 1600 3950 1600
+Connection ~ 3950 1600
+Wire Wire Line
+	3950 1600 4100 1600
+Wire Wire Line
+	4300 1400 4300 1600
+Wire Wire Line
+	4300 1600 4100 1600
+Connection ~ 4100 1600
+Wire Wire Line
+	4650 1400 4650 1600
+Wire Wire Line
+	4650 1600 4300 1600
+Connection ~ 4300 1600
+$Comp
+L Device:C_Small C7
+U 1 1 5D75A7CA
+P 4300 1300
+F 0 "C7" V 4529 1300 50  0000 C CNN
+F 1 "100n" V 4438 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1300 50  0001 C CNN
+F 3 "~" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5D76C0A1
+P 1250 1150
+F 0 "R1" H 1309 1196 50  0000 L CNN
+F 1 "10k" H 1309 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1250 1150 50  0001 C CNN
+F 3 "~" H 1250 1150 50  0001 C CNN
+	1    1250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D76CE76
+P 1450 1550
+F 0 "C1" V 1679 1550 50  0000 C CNN
+F 1 "22pF" V 1588 1550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1450 1550 50  0001 C CNN
+F 3 "~" H 1450 1550 50  0001 C CNN
+	1    1450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SWRst1
+U 1 1 5D76DB94
+P 1000 1550
+F 0 "SWRst1" V 950 1200 50  0000 L CNN
+F 1 "SW_Push" V 1050 1150 50  0000 L CNN
+F 2 "AcheronHardware:smdPushBtn" H 1000 1750 50  0001 C CNN
+F 3 "~" H 1000 1750 50  0001 C CNN
+	1    1000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D76EB16
+P 1250 1900
+F 0 "#PWR02" H 1250 1650 50  0001 C CNN
+F 1 "GND" V 1255 1727 50  0000 C CNN
+F 2 "" H 1250 1900 50  0001 C CNN
+F 3 "" H 1250 1900 50  0001 C CNN
+	1    1250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1250 1000 1250
+Wire Wire Line
+	1000 1250 1000 1350
+Wire Wire Line
+	1000 1750 1000 1900
+Wire Wire Line
+	1000 1900 1250 1900
+Wire Wire Line
+	1450 1650 1450 1900
+Wire Wire Line
+	1450 1900 1250 1900
+Connection ~ 1250 1900
+Wire Wire Line
+	1250 1250 1450 1250
+Wire Wire Line
+	1450 1250 1450 1450
+Connection ~ 1250 1250
+Text GLabel 3550 3600 0    50   Input ~ 0
+RST
+Text GLabel 1550 1250 2    50   Output ~ 0
+RST
+Connection ~ 1450 1250
+Wire Wire Line
+	1450 1250 1550 1250
+$Comp
+L Device:R_Small R4
+U 1 1 5D7733E0
+P 4950 5700
+F 0 "R4" V 4754 5700 50  0000 C CNN
+F 1 "10K" V 4845 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4950 5700 50  0001 C CNN
+F 3 "~" H 4950 5700 50  0001 C CNN
+	1    4950 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D775500
+P 5050 5700
+F 0 "#PWR012" H 5050 5450 50  0001 C CNN
+F 1 "GND" H 5055 5527 50  0000 C CNN
+F 2 "" H 5050 5700 50  0001 C CNN
+F 3 "" H 5050 5700 50  0001 C CNN
+	1    5050 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5D778839
+P 1700 4400
+F 0 "#PWR04" H 1700 4250 50  0001 C CNN
+F 1 "+5V" V 1700 4500 50  0000 L CNN
+F 2 "" H 1700 4400 50  0001 C CNN
+F 3 "" H 1700 4400 50  0001 C CNN
+	1    1700 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5D77A039
+P 2050 4600
+F 0 "R2" V 1854 4600 50  0000 C CNN
+F 1 "22" V 1945 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2050 4600 50  0001 C CNN
+F 3 "~" H 2050 4600 50  0001 C CNN
+	1    2050 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5D77B44C
+P 2050 4700
+F 0 "R3" V 2250 4700 50  0000 C CNN
+F 1 "22" V 2150 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2050 4700 50  0001 C CNN
+F 3 "~" H 2050 4700 50  0001 C CNN
+	1    2050 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 4600 1950 4600
+Wire Wire Line
+	1700 4700 1950 4700
+$Comp
+L power:GND #PWR03
+U 1 1 5D77DCB3
+P 1400 5000
+F 0 "#PWR03" H 1400 4750 50  0001 C CNN
+F 1 "GND" V 1405 4827 50  0000 C CNN
+F 2 "" H 1400 5000 50  0001 C CNN
+F 3 "" H 1400 5000 50  0001 C CNN
+	1    1400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J1
+U 1 1 5D776B8C
+P 1400 4600
+F 0 "J1" H 1457 5067 50  0000 C CNN
+F 1 "USB_B_Mini" H 1457 4976 50  0000 C CNN
+F 2 "AcheronConnectors:USB_MiniB_XM7D-0512" H 1550 4550 50  0001 C CNN
+F 3 "~" H 1550 4550 50  0001 C CNN
+	1    1400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4600 3550 4600
+Wire Wire Line
+	2150 4700 3550 4700
+$Comp
+L Acheron:MXSwitch SWNum1
+U 1 1 5D7C435E
+P 7850 1700
+F 0 "SWNum1" H 7750 1800 50  0000 L CNN
+F 1 "MXSwitch" H 7700 1700 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 7850 1700 50  0001 C CNN
+F 3 "" H 7850 1700 50  0001 C CNN
+	1    7850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWDiv1
+U 1 1 5D7C5EE2
+P 8750 1700
+F 0 "SWDiv1" H 8650 1800 50  0000 L CNN
+F 1 "MXSwitch" H 8600 1700 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 8750 1700 50  0001 C CNN
+F 3 "" H 8750 1700 50  0001 C CNN
+	1    8750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWAst1
+U 1 1 5D7C670D
+P 9650 1700
+F 0 "SWAst1" H 9550 1800 50  0000 L CNN
+F 1 "MXSwitch" H 9500 1700 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 9650 1700 50  0001 C CNN
+F 3 "" H 9650 1700 50  0001 C CNN
+	1    9650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWMns1
+U 1 1 5D7C711D
+P 10550 1700
+F 0 "SWMns1" H 10450 1800 50  0000 L CNN
+F 1 "MXSwitch" H 10400 1700 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 10550 1700 50  0001 C CNN
+F 3 "" H 10550 1700 50  0001 C CNN
+	1    10550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW8
+U 1 1 5D7C9190
+P 8750 2750
+F 0 "SW8" H 8650 2850 50  0000 L CNN
+F 1 "MXSwitch" H 8600 2750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 8750 2750 50  0001 C CNN
+F 3 "" H 8750 2750 50  0001 C CNN
+	1    8750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW7
+U 1 1 5D7C9BD7
+P 7850 2750
+F 0 "SW7" H 7750 2850 50  0000 L CNN
+F 1 "MXSwitch" H 7700 2750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 7850 2750 50  0001 C CNN
+F 3 "" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW9
+U 1 1 5D7CA0DD
+P 9650 2750
+F 0 "SW9" H 9550 2850 50  0000 L CNN
+F 1 "MXSwitch" H 9500 2750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 9650 2750 50  0001 C CNN
+F 3 "" H 9650 2750 50  0001 C CNN
+	1    9650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWPls1
+U 1 1 5D7CA746
+P 10550 3300
+F 0 "SWPls1" H 10450 3400 50  0000 L CNN
+F 1 "MXSwitch" H 10400 3300 39  0000 L CNN
+F 2 "AcheronMX:MX200V" H 10550 3300 50  0001 C CNN
+F 3 "" H 10550 3300 50  0001 C CNN
+	1    10550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW4
+U 1 1 5D7CAE77
+P 7850 3750
+F 0 "SW4" H 7750 3850 50  0000 L CNN
+F 1 "MXSwitch" H 7700 3750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 7850 3750 50  0001 C CNN
+F 3 "" H 7850 3750 50  0001 C CNN
+	1    7850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW5
+U 1 1 5D7CB7DD
+P 8750 3750
+F 0 "SW5" H 8650 3850 50  0000 L CNN
+F 1 "MXSwitch" H 8600 3750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 8750 3750 50  0001 C CNN
+F 3 "" H 8750 3750 50  0001 C CNN
+	1    8750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW6
+U 1 1 5D7CBEE6
+P 9650 3750
+F 0 "SW6" H 9550 3850 50  0000 L CNN
+F 1 "MXSwitch" H 9500 3750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 9650 3750 50  0001 C CNN
+F 3 "" H 9650 3750 50  0001 C CNN
+	1    9650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW1
+U 1 1 5D7CCD07
+P 7850 4750
+F 0 "SW1" H 7750 4850 50  0000 L CNN
+F 1 "MXSwitch" H 7700 4750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 7850 4750 50  0001 C CNN
+F 3 "" H 7850 4750 50  0001 C CNN
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW2
+U 1 1 5D7CD3BB
+P 8750 4750
+F 0 "SW2" H 8650 4850 50  0000 L CNN
+F 1 "MXSwitch" H 8600 4750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 8750 4750 50  0001 C CNN
+F 3 "" H 8750 4750 50  0001 C CNN
+	1    8750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW3
+U 1 1 5D7CD9D9
+P 9650 4750
+F 0 "SW3" H 9550 4850 50  0000 L CNN
+F 1 "MXSwitch" H 9500 4750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 9650 4750 50  0001 C CNN
+F 3 "" H 9650 4750 50  0001 C CNN
+	1    9650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWEnt1
+U 1 1 5D7CDFF7
+P 10550 5250
+F 0 "SWEnt1" H 10450 5350 50  0000 L CNN
+F 1 "MXSwitch" H 10400 5250 39  0000 L CNN
+F 2 "AcheronMX:MX200V" H 10550 5250 50  0001 C CNN
+F 3 "" H 10550 5250 50  0001 C CNN
+	1    10550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SW0
+U 1 1 5D7CEDC8
+P 8300 5750
+F 0 "SW0" H 8200 5850 50  0000 L CNN
+F 1 "MXSwitch" H 8150 5750 39  0000 L CNN
+F 2 "AcheronMX:MX200" H 8300 5750 50  0001 C CNN
+F 3 "" H 8300 5750 50  0001 C CNN
+	1    8300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Acheron:MXSwitch SWDel1
+U 1 1 5D7CF4C7
+P 9650 5750
+F 0 "SWDel1" H 9550 5850 50  0000 L CNN
+F 1 "MXSwitch" H 9500 5750 39  0000 L CNN
+F 2 "AcheronMX:MX100" H 9650 5750 50  0001 C CNN
+F 3 "" H 9650 5750 50  0001 C CNN
+	1    9650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small DNum1
+U 1 1 5D7E7744
+P 7850 1250
+F 0 "DNum1" V 7804 1318 50  0000 L CNN
+F 1 "D_Small" V 7895 1318 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 7850 1250 50  0001 C CNN
+F 3 "~" V 7850 1250 50  0001 C CNN
+	1    7850 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DDiv1
+U 1 1 5D7E8260
+P 8750 1250
+F 0 "DDiv1" V 8704 1318 50  0000 L CNN
+F 1 "D_Small" V 8795 1318 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 8750 1250 50  0001 C CNN
+F 3 "~" V 8750 1250 50  0001 C CNN
+	1    8750 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DAst1
+U 1 1 5D7E9635
+P 9650 1250
+F 0 "DAst1" V 9604 1318 50  0000 L CNN
+F 1 "D_Small" V 9695 1318 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 9650 1250 50  0001 C CNN
+F 3 "~" V 9650 1250 50  0001 C CNN
+	1    9650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DMns1
+U 1 1 5D7E9E2F
+P 10550 1250
+F 0 "DMns1" V 10504 1318 50  0000 L CNN
+F 1 "D_Small" V 10595 1318 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 10550 1250 50  0001 C CNN
+F 3 "~" V 10550 1250 50  0001 C CNN
+	1    10550 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5D7EA728
+P 7850 2300
+F 0 "D7" V 7804 2368 50  0000 L CNN
+F 1 "D_Small" V 7895 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 7850 2300 50  0001 C CNN
+F 3 "~" V 7850 2300 50  0001 C CNN
+	1    7850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5D7EAFD4
+P 8750 2300
+F 0 "D8" V 8704 2368 50  0000 L CNN
+F 1 "D_Small" V 8795 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 8750 2300 50  0001 C CNN
+F 3 "~" V 8750 2300 50  0001 C CNN
+	1    8750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5D7EB83C
+P 9650 2300
+F 0 "D9" V 9604 2368 50  0000 L CNN
+F 1 "D_Small" V 9695 2368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 9650 2300 50  0001 C CNN
+F 3 "~" V 9650 2300 50  0001 C CNN
+	1    9650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DPls1
+U 1 1 5D7EBF55
+P 10550 2850
+F 0 "DPls1" V 10504 2918 50  0000 L CNN
+F 1 "D_Small" V 10595 2918 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 10550 2850 50  0001 C CNN
+F 3 "~" V 10550 2850 50  0001 C CNN
+	1    10550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5D7EC849
+P 7850 3300
+F 0 "D4" V 7804 3368 50  0000 L CNN
+F 1 "D_Small" V 7895 3368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 7850 3300 50  0001 C CNN
+F 3 "~" V 7850 3300 50  0001 C CNN
+	1    7850 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5D7ECFF3
+P 8750 3300
+F 0 "D5" V 8704 3368 50  0000 L CNN
+F 1 "D_Small" V 8795 3368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 8750 3300 50  0001 C CNN
+F 3 "~" V 8750 3300 50  0001 C CNN
+	1    8750 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5D7ED630
+P 9650 3300
+F 0 "D6" V 9604 3368 50  0000 L CNN
+F 1 "D_Small" V 9695 3368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 9650 3300 50  0001 C CNN
+F 3 "~" V 9650 3300 50  0001 C CNN
+	1    9650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5D7EDC1D
+P 7850 4300
+F 0 "D1" V 7804 4368 50  0000 L CNN
+F 1 "D_Small" V 7895 4368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 7850 4300 50  0001 C CNN
+F 3 "~" V 7850 4300 50  0001 C CNN
+	1    7850 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5D7EE525
+P 8750 4300
+F 0 "D2" V 8704 4368 50  0000 L CNN
+F 1 "D_Small" V 8795 4368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 8750 4300 50  0001 C CNN
+F 3 "~" V 8750 4300 50  0001 C CNN
+	1    8750 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5D7EF65C
+P 9650 4300
+F 0 "D3" V 9604 4368 50  0000 L CNN
+F 1 "D_Small" V 9695 4368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 9650 4300 50  0001 C CNN
+F 3 "~" V 9650 4300 50  0001 C CNN
+	1    9650 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DEnt1
+U 1 1 5D7EFDCA
+P 10550 4800
+F 0 "DEnt1" V 10504 4868 50  0000 L CNN
+F 1 "D_Small" V 10595 4868 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 10550 4800 50  0001 C CNN
+F 3 "~" V 10550 4800 50  0001 C CNN
+	1    10550 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small DDel1
+U 1 1 5D7F0691
+P 9650 5300
+F 0 "DDel1" V 9604 5368 50  0000 L CNN
+F 1 "D_Small" V 9695 5368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 9650 5300 50  0001 C CNN
+F 3 "~" V 9650 5300 50  0001 C CNN
+	1    9650 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D0
+U 1 1 5D7F0F44
+P 8300 5300
+F 0 "D0" V 8254 5368 50  0000 L CNN
+F 1 "D_Small" V 8345 5368 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 8300 5300 50  0001 C CNN
+F 3 "~" V 8300 5300 50  0001 C CNN
+	1    8300 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10550 1150 9650 1150
+Connection ~ 7850 1150
+Connection ~ 8750 1150
+Wire Wire Line
+	8750 1150 7850 1150
+Connection ~ 9650 1150
+Wire Wire Line
+	9650 1150 8750 1150
+Wire Wire Line
+	6950 1150 7850 1150
+Connection ~ 7850 2200
+Wire Wire Line
+	7850 2200 6950 2200
+Connection ~ 8750 2200
+Wire Wire Line
+	8750 2200 7850 2200
+Wire Wire Line
+	9650 2200 8750 2200
+Wire Wire Line
+	9650 3200 8750 3200
+Connection ~ 7850 3200
+Wire Wire Line
+	7850 3200 6950 3200
+Connection ~ 8750 3200
+Wire Wire Line
+	8750 3200 7850 3200
+Wire Wire Line
+	10550 4700 10550 4200
+Wire Wire Line
+	10550 4200 9650 4200
+Connection ~ 7850 4200
+Wire Wire Line
+	7850 4200 6950 4200
+Connection ~ 8750 4200
+Wire Wire Line
+	8750 4200 7850 4200
+Connection ~ 9650 4200
+Wire Wire Line
+	9650 4200 8750 4200
+Wire Wire Line
+	9650 5200 8300 5200
+Connection ~ 8300 5200
+Wire Wire Line
+	6950 5200 8300 5200
+Wire Wire Line
+	7950 5750 7500 5750
+Wire Wire Line
+	7500 5750 7500 4750
+Wire Wire Line
+	7500 4750 7500 3750
+Connection ~ 7500 4750
+Wire Wire Line
+	7500 3750 7500 2750
+Connection ~ 7500 3750
+Wire Wire Line
+	7500 2750 7500 1700
+Connection ~ 7500 2750
+Wire Wire Line
+	7500 1700 7500 800 
+Connection ~ 7500 1700
+Wire Wire Line
+	8400 4750 8400 3750
+Wire Wire Line
+	8400 3750 8400 2750
+Connection ~ 8400 3750
+Wire Wire Line
+	8400 2750 8400 1700
+Connection ~ 8400 2750
+Wire Wire Line
+	8400 1700 8400 800 
+Connection ~ 8400 1700
+Wire Wire Line
+	9300 5750 9300 4750
+Wire Wire Line
+	9300 4750 9300 3750
+Connection ~ 9300 4750
+Wire Wire Line
+	9300 3750 9300 2750
+Connection ~ 9300 3750
+Wire Wire Line
+	9300 2750 9300 1700
+Connection ~ 9300 2750
+Wire Wire Line
+	9300 1700 9300 800 
+Connection ~ 9300 1700
+Wire Wire Line
+	10550 2750 10550 2200
+Wire Wire Line
+	10550 2200 9650 2200
+Connection ~ 9650 2200
+Wire Wire Line
+	10200 5250 10200 3300
+Wire Wire Line
+	10200 3300 10200 1700
+Connection ~ 10200 3300
+Wire Wire Line
+	10200 1700 10200 800 
+Connection ~ 10200 1700
+Text GLabel 6950 5200 0    50   Output ~ 0
+Row5
+Text GLabel 6950 4200 0    50   Output ~ 0
+Row4
+Text GLabel 6950 3200 0    50   Output ~ 0
+Row3
+Text GLabel 6950 2200 0    50   Output ~ 0
+Row2
+Text GLabel 6950 1150 0    50   Output ~ 0
+Row1
+Text GLabel 7500 800  1    50   Output ~ 0
+Col1
+Text GLabel 8400 800  1    50   Output ~ 0
+Col2
+Text GLabel 9300 800  1    50   Output ~ 0
+Col3
+Text GLabel 10200 800  1    50   Output ~ 0
+Col4
+Wire Wire Line
+	4050 6900 4050 7000
+Wire Wire Line
+	4050 7000 4100 7000
+Wire Wire Line
+	4150 6900 4150 7000
+Wire Wire Line
+	4150 7000 4100 7000
+Connection ~ 4100 7000
+Wire Wire Line
+	4750 5700 4850 5700
+Wire Wire Line
+	4050 3300 4050 3200
+Wire Wire Line
+	4050 3200 4150 3200
+Wire Wire Line
+	4150 3300 4150 3200
+Connection ~ 4150 3200
+Wire Wire Line
+	4250 3300 4250 3200
+Wire Wire Line
+	4250 3200 4150 3200
+Wire Wire Line
+	3550 4900 3450 4900
+Wire Wire Line
+	3150 4900 3250 4900
+$EndSCHEMATC
