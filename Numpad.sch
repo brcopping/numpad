@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Numpad-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -919,4 +920,22 @@ Wire Wire Line
 	3550 4900 3450 4900
 Wire Wire Line
 	3150 4900 3250 4900
+Text GLabel 4750 3600 2    50   Output ~ 0
+Row1
+Text GLabel 4750 3700 2    50   Output ~ 0
+Row2
+Text GLabel 4750 3800 2    50   Output ~ 0
+Row3
+Text GLabel 4750 3900 2    50   Output ~ 0
+Row4
+Text GLabel 4750 4000 2    50   Output ~ 0
+Row5
+Text GLabel 4750 4800 2    50   Output ~ 0
+Col1
+Text GLabel 4750 4900 2    50   Output ~ 0
+Col2
+Text GLabel 4750 5000 2    50   Output ~ 0
+Col3
+Text GLabel 4750 5100 2    50   Output ~ 0
+Col4
 $EndSCHEMATC
