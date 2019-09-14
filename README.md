@@ -8,4 +8,4 @@ I created a rough case design for this PCB on tinkercad:  https://www.tinkercad.
 
 
 
-Its currently a work in progress and dosent work.
+This project is currently a work in progress, I do not advise that you copy me!
