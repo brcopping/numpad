@@ -2620,7 +2620,7 @@
     )
   )
 
-  (gr_text "BRC Numpad v1.0\n2019-09" (at 165.6588 133.5024) (layer F.SilkS)
+  (gr_text "Ben17 Numpad\nv1.0 2019-09" (at 165.6588 133.5024) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 196.215 38.57625) (end 196.215 40.9575) (layer Edge.Cuts) (width 0.05))
