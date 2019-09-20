@@ -2,4 +2,7 @@
   (lib (name AcheronMX)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_MX.pretty)(options "")(descr ""))
   (lib (name AcheronHardware)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Hardware.pretty)(options "")(descr ""))
   (lib (name AcheronConnectors)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Connectors.pretty)(options "")(descr ""))
+  (lib (name AcheronSwitchSlots)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_SwitchSlots.pretty)(options "")(descr ""))
+  (lib (name AcheronComponents)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Components.pretty)(options "")(descr ""))
+  (lib (name AcheronMountingHoles)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_MountingHoles.pretty)(options "")(descr ""))
 )

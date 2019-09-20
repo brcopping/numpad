@@ -311,12 +311,12 @@ $EndComp
 $Comp
 L power:+5V #PWR04
 U 1 1 5D778839
-P 3550 2500
-F 0 "#PWR04" H 3550 2350 50  0001 C CNN
-F 1 "+5V" V 3550 2600 50  0000 L CNN
-F 2 "" H 3550 2500 50  0001 C CNN
-F 3 "" H 3550 2500 50  0001 C CNN
-	1    3550 2500
+P 2850 2550
+F 0 "#PWR04" H 2850 2400 50  0001 C CNN
+F 1 "+5V" V 2850 2650 50  0000 L CNN
+F 2 "" H 2850 2550 50  0001 C CNN
+F 3 "" H 2850 2550 50  0001 C CNN
+	1    2850 2550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -887,50 +887,6 @@ Text GLabel 2700 5300 1    50   Output ~ 0
 Col3
 Text GLabel 2800 5300 1    50   Output ~ 0
 Col4
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5D799789
-P 6150 7550
-F 0 "H4" H 6250 7596 50  0000 L CNN
-F 1 "MountingHole" H 6250 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 6150 7550 50  0001 C CNN
-F 3 "~" H 6150 7550 50  0001 C CNN
-	1    6150 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5D79B1CB
-P 6150 7350
-F 0 "H3" H 6250 7396 50  0000 L CNN
-F 1 "MountingHole" H 6250 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 6150 7350 50  0001 C CNN
-F 3 "~" H 6150 7350 50  0001 C CNN
-	1    6150 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5D79EB2E
-P 6150 7150
-F 0 "H2" H 6250 7196 50  0000 L CNN
-F 1 "MountingHole" H 6250 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 6150 7150 50  0001 C CNN
-F 3 "~" H 6150 7150 50  0001 C CNN
-	1    6150 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5D79EDD6
-P 6150 6950
-F 0 "H1" H 6250 6996 50  0000 L CNN
-F 1 "MountingHole" H 6250 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm_Pad" H 6150 6950 50  0001 C CNN
-F 3 "~" H 6150 6950 50  0001 C CNN
-	1    6150 6950
-	1    0    0    -1  
-$EndComp
 Text GLabel 2300 6500 3    50   Input ~ 0
 D+
 Text GLabel 3250 2900 2    50   Output ~ 0
@@ -1004,35 +960,8 @@ F 3 "~" V 10550 1250 50  0001 C CNN
 	1    10550 1250
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5D84253D
-P 3250 2500
-F 0 "F1" V 3045 2500 50  0000 C CNN
-F 1 "500mA" V 3136 2500 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3300 2300 50  0001 L CNN
-F 3 "~" H 3250 2500 50  0001 C CNN
-	1    3250 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0101
-U 1 1 5D846B17
-P 2850 2500
-F 0 "#PWR0101" H 2850 2350 50  0001 C CNN
-F 1 "VCC" H 2867 2673 50  0000 C CNN
-F 2 "" H 2850 2500 50  0001 C CNN
-F 3 "" H 2850 2500 50  0001 C CNN
-	1    2850 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 2700 2850 2700
 Wire Wire Line
-	2850 2700 2850 2500
-Wire Wire Line
-	2850 2500 3150 2500
-Connection ~ 2850 2500
-Wire Wire Line
-	3350 2500 3550 2500
+	2850 2700 2850 2550
 $EndSCHEMATC
