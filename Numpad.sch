@@ -124,39 +124,6 @@ F 3 "" H 4700 5950 50  0001 C CNN
 	1    4700 5950
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5D759123
-P 3600 1300
-F 0 "C5" V 3829 1300 50  0000 C CNN
-F 1 "10uF" V 3738 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 1300 50  0001 C CNN
-F 3 "~" H 3600 1300 50  0001 C CNN
-	1    3600 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 5D759CD2
-P 3950 1300
-F 0 "C6" V 4179 1300 50  0000 C CNN
-F 1 "0.1uF" V 4088 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 1300 50  0001 C CNN
-F 3 "~" H 3950 1300 50  0001 C CNN
-	1    3950 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C8
-U 1 1 5D75B0ED
-P 4650 1300
-F 0 "C8" V 4879 1300 50  0000 C CNN
-F 1 "01.uF" V 4788 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 1300 50  0001 C CNN
-F 3 "~" H 4650 1300 50  0001 C CNN
-	1    4650 1300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4300 1200 4300 1050
 Wire Wire Line
@@ -206,17 +173,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 1600 4300 1600
 Connection ~ 4300 1600
-$Comp
-L Device:C_Small C7
-U 1 1 5D75A7CA
-P 4300 1300
-F 0 "C7" V 4529 1300 50  0000 C CNN
-F 1 "0.1uF" V 4438 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1300 50  0001 C CNN
-F 3 "~" H 4300 1300 50  0001 C CNN
-	1    4300 1300
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5D76C0A1
@@ -869,23 +825,23 @@ Wire Wire Line
 	2600 6500 2600 6600
 Wire Wire Line
 	2600 6900 2600 6800
-Text GLabel 1300 5300 1    50   Output ~ 0
+Text GLabel 3700 5300 1    50   Output ~ 0
 Row1
-Text GLabel 1400 5300 1    50   Output ~ 0
+Text GLabel 3800 5300 1    50   Output ~ 0
 Row2
-Text GLabel 1500 5300 1    50   Output ~ 0
+Text GLabel 3900 5300 1    50   Output ~ 0
 Row3
-Text GLabel 1600 5300 1    50   Output ~ 0
+Text GLabel 4000 5300 1    50   Output ~ 0
 Row4
-Text GLabel 1700 5300 1    50   Output ~ 0
+Text GLabel 4100 5300 1    50   Output ~ 0
 Row5
-Text GLabel 2500 5300 1    50   Output ~ 0
+Text GLabel 1800 5300 1    50   Output ~ 0
 Col1
-Text GLabel 2600 5300 1    50   Output ~ 0
+Text GLabel 1700 5300 1    50   Output ~ 0
 Col2
-Text GLabel 2700 5300 1    50   Output ~ 0
+Text GLabel 3100 5300 1    50   Output ~ 0
 Col3
-Text GLabel 2800 5300 1    50   Output ~ 0
+Text GLabel 2900 5300 1    50   Output ~ 0
 Col4
 Text GLabel 2300 6500 3    50   Input ~ 0
 D+
@@ -964,4 +920,48 @@ Wire Wire Line
 	2700 2700 2850 2700
 Wire Wire Line
 	2850 2700 2850 2550
+$Comp
+L Device:C_Small C8
+U 1 1 5D75B0ED
+P 4650 1300
+F 0 "C8" V 4879 1300 50  0000 C CNN
+F 1 "01.uF" V 4788 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 1300 50  0001 C CNN
+F 3 "~" H 4650 1300 50  0001 C CNN
+	1    4650 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5D75A7CA
+P 4300 1300
+F 0 "C7" V 4529 1300 50  0000 C CNN
+F 1 "0.1uF" V 4438 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1300 50  0001 C CNN
+F 3 "~" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5D759CD2
+P 3950 1300
+F 0 "C6" V 4179 1300 50  0000 C CNN
+F 1 "1uF" V 4088 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3950 1300 50  0001 C CNN
+F 3 "~" H 3950 1300 50  0001 C CNN
+	1    3950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5D759123
+P 3600 1300
+F 0 "C5" V 3829 1300 50  0000 C CNN
+F 1 "10uF" V 3738 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 1300 50  0001 C CNN
+F 3 "~" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
