@@ -1,4 +1,4 @@
-16545624391801756
+16547232278366763
 AcheronChoc
 C100
 
@@ -182,68 +182,12 @@ UQFN DFN_QFN
 53
 49
 AcheronConnectors
-HEADER_4PIN
-
-
+Conn_ARM_JTAG_SWD_10
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
 0
-4
-4
-AcheronConnectors
-HEADER_4PIN_ANGLE
-
-
-0
-4
-4
-AcheronConnectors
-HEADER_5PIN
-
-
-0
-5
-5
-AcheronConnectors
-HEADER_6PIN
-
-
-0
-6
-6
-AcheronConnectors
-HEADER_6PIN_ANGLE
-
-
-0
-6
-6
-AcheronConnectors
-HEADER_6PIN_HORIZONTAL
-
-
-0
-6
-6
-AcheronConnectors
-HEADER_12PIN
-
-
-0
-12
-12
-AcheronConnectors
-HEADER_12PIN_SQUARE
-
-
-0
-12
-12
-AcheronConnectors
-HEADER_20PIN
-
-
-0
-20
-20
+10
+10
 AcheronConnectors
 JSTBM04B-ASRS
 
@@ -259,11 +203,74 @@ JST_BM04B-ASRS
 6
 5
 AcheronConnectors
+PinHeader_1x4_P2.54mm_Angled
+
+
+0
+4
+4
+AcheronConnectors
+PinHeader_1x4_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+4
+4
+AcheronConnectors
+PinHeader_1x5_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+5
+5
+AcheronConnectors
+PinHeader_1x6_P2.54mm_Angled
+
+
+0
+6
+6
+AcheronConnectors
+PinHeader_1x6_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+6
+6
+AcheronConnectors
+PinHeader_1x14_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+AcheronConnectors
+PinHeader_1x20_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+AcheronConnectors
+PinHeader_2x3_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+6
+6
+AcheronConnectors
+PinHeader_2x5_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+10
+10
+AcheronConnectors
 TYPE-C-31-M-12
 
 
 0
-20
+17
 13
 AcheronConnectors
 USB_MiniB_Hirose_UX60-MB-5S8
@@ -907,168 +914,168 @@ MX100
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX125
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX150
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX175
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX200
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX200R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX200V
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX200VR
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX225
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX225R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX250
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX250R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX275
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX275R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX300
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX300R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX600
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX600R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX625
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX625R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX700
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX700R
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX_ISOEnter
 
 
 0
-6
+4
 2
 AcheronSolderMask
 MX_ISOEnter_Vertical
 
 
 0
-6
+4
 2
 AcheronSwitchSlots
 slotMX100
