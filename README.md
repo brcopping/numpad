@@ -6,7 +6,7 @@ The layout is a standard numpad which can be seen here on [keyboard layout edito
 I created [a rough case design](https://www.tinkercad.com/things/buzRB4ar5WV) for this PCB on tinkercad, it will take a [lazercut metal plate](https://github.com/brcopping/numpad/blob/master/Swill-Switch-Layer.dxf) for the switch mounting.
 
 Numpad firmware added to [my QMK fork on git](https://github.com/brcopping/qmk_firmware). To genreate the firmware file run:
-`make handwired/ben17:default`
+`make handwired/ben17:default` (pin outs are probably wrong until PCB design is completed)
 
 
 This project is currently a work in progress, nothing has been proven to work yet, I do not advise that you copy me!
