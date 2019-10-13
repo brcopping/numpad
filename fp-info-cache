@@ -1,4 +1,4 @@
-16547232278366763
+16566128452720590
 AcheronChoc
 C100
 
@@ -7,9 +7,30 @@ C100
 2
 2
 AcheronComponents
+Crystal_SMD_0603-2Pin_6.0x3.5mm
+SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+2
+2
+AcheronComponents
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+AcheronComponents
 Crystal_SMD_5032-2Pin
 SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package
 SMD SMT crystal hand-soldering
+0
+2
+2
+AcheronComponents
+Crystal_SMD_5032-2Pin_5.0x3.2mm
+SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal
 0
 2
 2
@@ -35,9 +56,23 @@ SMD SMT crystal
 4
 4
 AcheronComponents
+D_DO-35_SOD27_P7.62mm
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+AcheronComponents
 D_SOD-123
 SOD-123
 SOD-123
+0
+2
+2
+AcheronComponents
+D_SOD-323
+SOD-323
+SOD-323
 0
 2
 2
@@ -126,12 +161,26 @@ SSOP 0.65
 13
 9
 AcheronComponents
+QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm
+QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+33
+29
+AcheronComponents
 QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm
 QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
 61
 45
+AcheronComponents
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
 AcheronComponents
 R_SMD_1026
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -238,12 +287,40 @@ Through hole pin header THT 1x14 2.54mm single row
 6
 6
 AcheronConnectors
+PinHeader_1x7_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+7
+7
+AcheronConnectors
+PinHeader_1x8_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+8
+8
+AcheronConnectors
+PinHeader_1x10_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+10
+10
+AcheronConnectors
 PinHeader_1x14_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
 Through hole pin header THT 1x14 2.54mm single row
 0
 14
 14
+AcheronConnectors
+PinHeader_1x19_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+19
+19
 AcheronConnectors
 PinHeader_1x20_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
@@ -270,7 +347,7 @@ TYPE-C-31-M-12
 
 
 0
-17
+16
 13
 AcheronConnectors
 USB_MiniB_Hirose_UX60-MB-5S8
@@ -384,6 +461,13 @@ acheronLongExtended
 0
 0
 0
+AcheronLogos
+acheronLong_40x12mm_Plated
+
+
+0
+8
+1
 AcheronLogos
 acheronShort_0.3x0.5in
 
