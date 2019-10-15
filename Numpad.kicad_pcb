@@ -2552,7 +2552,7 @@
 
   (gr_line (start 201.79375 77.48125) (end 201.78625 80.15125) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 192.26125 80.15125) (end 192.26125 77.48125) (layer Edge.Cuts) (width 0.05))
-  (gr_text "Ben17 Numpad\nv1.0 2019-09" (at 171.21505 172.39615) (layer F.SilkS)
+  (gr_text "Ben18 Numpad\nv1.0 2019-10" (at 171.21505 172.39615) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 192.26125 77.48125) (end 201.79375 77.48125) (layer Edge.Cuts) (width 0.05))
