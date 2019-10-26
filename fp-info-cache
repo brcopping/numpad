@@ -1,4 +1,4 @@
-17296843965752655
+17301563158824536
 AcheronChoc
 C100
 
@@ -6,6 +6,13 @@ C100
 0
 2
 2
+AcheronComponents
+ACM2012-2P
+
+
+0
+4
+4
 AcheronComponents
 Crystal_SMD_0603-2Pin_6.0x3.5mm
 SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
@@ -92,6 +99,13 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 AcheronComponents
 E6C1209RGB
+
+
+0
+4
+4
+AcheronComponents
+EXC14CG-CE
 
 
 0
@@ -433,6 +447,13 @@ SOIC 1.27
 0
 42
 38
+AcheronHardware
+MouseBite_IPC7351
+
+
+0
+0
+0
 AcheronHardware
 bluePill
 
