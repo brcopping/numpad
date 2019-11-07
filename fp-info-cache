@@ -1,4 +1,4 @@
-17301563158824536
+17303138552829417
 AcheronChoc
 C100
 
@@ -71,6 +71,13 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 AcheronComponents
 D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+AcheronComponents
+D_SOD-123_Bidirectional
 SOD-123
 SOD-123
 0
@@ -361,7 +368,7 @@ TYPE-C-31-M-12
 
 
 0
-16
+17
 13
 AcheronConnectors
 USB_MiniB_Hirose_UX60-MB-5S8
