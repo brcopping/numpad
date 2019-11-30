@@ -10,6 +10,5 @@
   (lib (name AcheronLogos)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Logos.pretty)(options "")(descr ""))
   (lib (name AcheronGraphics)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Graphics.pretty)(options "")(descr ""))
   (lib (name AcheronChoc)(type KiCad)(uri C:/Keyboard/pcbs/AcheronLibrary/footprints/acheron_Choc.pretty)(options "")(descr ""))
-  (lib (name numpad)(type KiCad)(uri ${KIPRJMOD}/numpad.pretty)(options "")(descr ""))
   (lib (name digikey-kicad-library)(type KiCad)(uri C:/Keyboard/pcbs/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
 )
