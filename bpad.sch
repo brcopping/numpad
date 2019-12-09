@@ -265,7 +265,7 @@ U 1 1 5D776B8C
 P 2400 2900
 F 0 "J1" H 2457 3367 50  0000 C CNN
 F 1 "USB_B_Mini" H 2457 3276 50  0000 C CNN
-F 2 "digikey-kicad-library:USB_Mini_B_Female_548190519" H 2550 2850 50  0001 C CNN
+F 2 "LocalFootprints:USB_Mini_B_Female_548190519_top" H 2550 2850 50  0001 C CNN
 F 3 "~" H 2550 2850 50  0001 C CNN
 	1    2400 2900
 	1    0    0    -1  
