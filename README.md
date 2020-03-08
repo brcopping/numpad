@@ -1,4 +1,4 @@
-# numpad
+# numpad PCB
 ![working numpad](/working-numpad.jpg)
 I am following MrKeeb's and Gondolindrin's video series [PCB from Scratch with Gondo](https://youtu.be/Nk0egpDFqRA) and [ai03's guides](https://wiki.ai03.me/) to create my own numpad.
 
