@@ -1,5 +1,6 @@
 # numpad PCB
-![working numpad](/working-numpad.jpg)
+![working numpad PCB](/working-numpad-pcb.jpg)
+
 I am following MrKeeb's and Gondolindrin's video series [PCB from Scratch with Gondo](https://youtu.be/Nk0egpDFqRA) and [ai03's guides](https://wiki.ai03.me/) to create my own numpad.
 
 The layout is a standard numpad which can be seen here on [keyboard layout editor](http://www.keyboard-layout-editor.com/#/gists/febd745a52b943ce2c9e8b8bd37d3d38)
@@ -10,3 +11,5 @@ To hold the case together I used M3 nuts and bolts, 35mm for the back and 25mm f
 
 Numpad firmware added to [my QMK fork on git](https://github.com/brcopping/qmk_firmware). To genreate the firmware file run:
 `make handwired/ben18:default`
+
+![working numpad](/working-numpad.jpg)
